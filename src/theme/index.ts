@@ -11,6 +11,7 @@ const theme = createTheme({
     MuiButton: {
       root: {
         margin: 0,
+        //this registration font styles!
         ...fonts.sourceCodePro.style,
         color: 'red',
         fontWeight: 'bold'

@@ -1,9 +1,7 @@
-import {
-  Source_Code_Pro as fontSourceCodePro
-} from '@next/font/google'
+import { Source_Code_Pro } from '@next/font/google'
 
 
-const sourceCodePro = fontSourceCodePro({
+const sourceCodePro = Source_Code_Pro({
   weight: ['500'],
   subsets: ['cyrillic', 'cyrillic-ext', 'latin', 'latin-ext']
 })
